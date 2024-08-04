@@ -1,0 +1,124 @@
+/* css resets */
+body, p, ul{
+    margin: 0;
+    padding: unset;
+}
+
+h1, h2{
+    margin: unset;
+    padding: unset;
+    font-size: unset;
+    font-weight: unset;
+}
+
+.video_box ul{
+    list-style-type: none; 
+}
+
+.video_box li{
+    display: inline-block;
+}
+
+/* typography */
+:root{
+    font-family: 'arial';
+}
+
+/* design */
+body {
+    background-image: url(images/header-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.l_wrapper1{
+    width: 960px;
+    margin: 100px auto;
+}
+
+.text{
+    border-top: 30px;
+    border-left: 30px;
+    border-right: 30px;
+    border-bottom: 0;
+    border-style: solid;
+    color: #FFA500;
+    padding: 60px;
+    box-sizing: border-box;
+
+    background-image: url(images/container-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 54px center;
+    background-position-y: 54px;
+}
+
+.text h1{
+    font-size: 32px;
+    color: #FFA500;
+    letter-spacing: 6px;
+}
+
+.text h1::after{
+    display: block;
+    content: '';
+    border-bottom: 4px solid #FFA500;
+    border-radius: 12px;
+    width: 373px;
+    margin-bottom: 16px;
+}
+
+.text p{
+    width: 482px;
+    font-size: 16px;
+    color: #FFA500;
+    line-height: 1.6em;
+    padding: 10px 0;
+}
+
+.l_wrapper2{
+    background-color:#ddd ;
+    margin-top: -100px;
+    display: flow-root;
+}
+
+.video_box{
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.video_box li{
+    background-color: #fff;
+    width: 300px;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.video_box img{
+    border-radius: 6px 6px 0 0;
+    border-bottom: 4px solid #FFA500;
+}
+
+.video_box h2{
+    background-image: url(images/play.png);
+    background-repeat: no-repeat;
+    background-position: right 0px center;
+
+    color: #FFA500;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    padding: 15px 0 15px 10px ;
+}
+
+
+.footer{
+    background-color: #fff;
+    color: #aaa;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding: 19px;
+    border-top: 2px solid #aaa;
+}

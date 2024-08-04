@@ -70,21 +70,27 @@ body {
 }
 
 .l_wrapper2{
-    background-color:#ddd ;
     margin-top: -130px;
-    display: flow-root;
 }
 
 .video_box{
-    text-align: center;
-    margin: 20px;
+    background-color:#ddd;
+    display: flow-root;
+}
+
+.video_box ul{
+    width: 970px;
+    margin: 30px auto;
 }
 
 .video_box li{
     background-color: #fff;
     width: 300px;
     border-radius: 6px;
-    margin: 10px;
+}
+
+.video_box li:nth-child(2){
+    margin: 0 30px 0;
 }
 
 .video_box img{
@@ -95,12 +101,11 @@ body {
 .video_box h2{
     background-image: url(images/play.png);
     background-repeat: no-repeat;
-    background-position: right 0px center;
+    background-position: right;
 
     color: #FFA500;
     font-weight: bold;
     font-size: 16px;
-    text-align: left;
     padding: 15px 0 15px 10px ;
 }
 
